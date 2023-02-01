@@ -20,6 +20,7 @@ html {
 /*------------------------------------------*/
 
 
+
 .containerTimeline {
     display: flex;
     justify-content: center;
@@ -190,7 +191,7 @@ html {
     transform: translateX(3px);
 }
 /*----------------------------*/
-@media screen and (min-width: 380px) {
+@media screen and (min-width: 330px) {
     .timeline .swiper-slide::after {
     right: -75%;
     bottom: 18%;
