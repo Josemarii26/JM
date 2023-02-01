@@ -29,7 +29,6 @@ html {
 }
 
 
-
 .timeline {
     width: 100%;
     background-color: #fff;
@@ -190,6 +189,25 @@ html {
 .timeline .swiper-button-next:hover {
     transform: translateX(3px);
 }
+/*----------------------------*/
+@media screen and (min-width: 380px) {
+    .timeline .swiper-slide::after {
+    right: -75%;
+    bottom: 18%;
+    width: 240px;
+    height: 50%;
+    box-shadow: -280px 0 150px 50vw rgba(0, 0, 0, .7);
+
+    
+}
+.timeline .swiper-slide-content {
+    right: 50%;
+    top: 25%;
+}
+}
+
+
+
 @media screen and (min-width: 768px) {
 .timeline .swiper-slide::after {
     right: -30%;
